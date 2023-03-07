@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINKEO DE CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class ="marco-perfil1"><img class ="img-perfil"src ="/src/images.jfif" alt =""></div>
+    </header>
+    <section>
+        <div class ="marco-perfil2">
+            <div class ="nombre-perfil">
+        <div class ="nombre">
+            <h3 id ="presentacion">Bienvenido a mi perfil!</h3>
+        </div>
+        </div>
+        <!--ICONOS-->
+        <aside class ="icono-1">
+            <button class = "iconos" onclick='document.getElementById("presentacion").innerHTML = botonA1 + "<br>"+ botonA2;'><i class="fa-solid fa-user"></i></button>
+            <button  class = "iconos" onclick='document.getElementById("presentacion").innerHTML = botonB1 + "<br>"+ botonB2;'><i class="fa-solid fa-envelope"></i></button>
+            <button  class = "iconos" onclick='document.getElementById("presentacion").innerHTML = botonC1 + "<br>"+ botonC2;'><i class="fa-solid fa-calendar-days"></i></button>
+        </aside>
+        <!--ICONOS-->
+        <aside class="icono-2">
+            <button  class = "iconos" onclick='document.getElementById("presentacion").innerHTML = botonD1 + "<br>"+ botonD2;'><i class="fa-solid fa-map-location-dot"></i></button>
+            <button  class = "iconos" onclick='document.getElementById("presentacion").innerHTML = botonE1 + "<br>"+ botonE2;'><i class="fa-solid fa-phone"></i></button>
+            <button  class = "iconos" onclick='document.getElementById("presentacion").innerHTML = botonF1 + "<br>"+ botonF2;'><i class="fa-solid fa-lock"></i></button>
+        </aside>
+    </section>
+    <!--LINKEO DE JS Y FONTS-->
+    <script src="https://kit.fontawesome.com/26d47a6995.js" crossorigin="anonymous"></script>
+    <script src ="index.js"></script>
+</body>
+</html>

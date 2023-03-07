@@ -1,0 +1,170 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #2c2e31;
+}
+header{
+    /*PARTE DE IMAGEN DE LOGO*/
+    padding-top: 10px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    background-color: #2c2e31;
+}
+section{
+    /*PARTE DE ABAJO DONDE VA LA PRESENTACION Y EL CONTENEDOR
+    DE BOTONES*/
+    width: 100%;
+    height: 370px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #2c2e31;
+    padding-bottom: 40px;
+}
+.img-perfil{
+    border-radius: 60%;
+    height: 150px;
+    width: 60%;
+    border: 1px solid gray;
+    padding: 3px;
+    position: relative;
+    top:30px;
+}
+.marco-perfil1{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(71, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-perfil{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.marco-perfil2{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(71, 64, 64);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: rgb(209, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: rgb(177, 175, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bloque-iconos{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+aside{
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+button{
+    font-size: 1.3em;
+    background-color: salmon;
+    color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+button:hover{
+    font-size: 1.3em;
+    background-color: black;
+    color: salmon;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+}
+.icono-1{
+    margin-bottom: 10px;
+}
+.icono-2{
+    margin-top: 10px;
+}
+/*MEDIA QUERIES / RESPONSIVES DE 320px A 1400px*/
+@media screen and (min-width: 320px) and (max-width: 481px){
+    .img-perfil{
+        width: 50%;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .img-perfil{
+        width: 40%;
+        height: 200px;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .img-perfil{
+        width: 30%;
+        height: 180px;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px){
+    .img-perfil{
+        width: 25%;
+        height: 200px;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    aside {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+
+
+
+
+
